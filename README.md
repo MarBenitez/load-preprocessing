@@ -4,21 +4,21 @@ Through three different datasets (Adult, Beijing, and Solar), I address common d
 
 ## Datasets and Problems
 
-### 1. Adult Dataset
+### 1. [Adult Dataset](https://github.com/MarBenitez/load-preprocessing/blob/main/content/adult_dataset/adult.ipynb)
 
 The Adult dataset contains demographic information about individuals. This problem is tackled using two text files: `data` and `names`.
 
 - **Problem**: The `names` file contains column names and descriptions in a general and extensive text format. We need to extract these names and convert the data into a DataFrame.
 - **Solution**: We use regular expressions to extract the column names and then transform the data into a Pandas DataFrame.
 
-### 2. Beijing Dataset
+### 2. [Airquality Dataset](https://github.com/MarBenitez/load-preprocessing/blob/main/content/airquality_dataset/airquality.ipynb)
 
-The Beijing dataset contains weather station information in compressed files.
+The Airquality dataset contains weather station information in compressed files.
 
 - **Problem**: The data is in a zip file that needs to be downloaded, decompressed, and concatenated into a single DataFrame.
 - **Solution**: We download the zip file using Python commands, decompress it into a folder, and concatenate all files in the folder into a single DataFrame. Subsequently, we clean the null values and remove duplicates to prepare the data for analysis.
 
-### 3. Solar Dataset
+### 3. [Solarflare Dataset](https://github.com/MarBenitez/load-preprocessing/blob/main/content/solarflare_dataset/solarflare.ipynb)
 
 The Solar dataset includes data from two separate sources (`Data1` and `Data2`) and a descriptive file of the variables.
 
