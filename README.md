@@ -1,6 +1,6 @@
 # Data Loading and Preprocessing
 
-Through three different datasets (Adult, Beijing, and Solar), I address common data handling problems and demonstrate effective and efficient solutions.
+I address common data handling problems and demonstrate effective and efficient solutions through three different datasets (Adult, Airquality, and Solarflare), 
 
 ## Datasets and Problems
 
